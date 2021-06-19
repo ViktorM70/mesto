@@ -1,0 +1,16 @@
+.popup__text {
+    width: 358px;
+    height: 27px;
+    margin: 54px auto 0;
+    border: none;
+}
+
+.popup__text:last-of-type {
+  margin-top: 30px;
+}
+  
+@media screen and (max-width: 600px) {
+  .popup__text {
+    width: 238px;
+  }
+}

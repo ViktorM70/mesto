@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='pages/index.css'>
+  <title>Mesto Russia</title>
+</head>
+<body class='page'>
+  <div class='popup'>
+    <div class=popup__body>
+      <input type='image' class='popup__close-button' src='images/Close Icon.svg'>
+      <form class='popup__container'>
+        <h1 class='popup__title'>Редактировать профиль</h1>
+        <input type='text' class='popup__text popup__text_name'>
+        <hr class=popup__line></hr>
+        <input type='text' class='popup__text popup__text_profession'>
+        <hr class=popup__line></hr>
+        <button class='popup__save-button'>Сохранить</button>
+      </form>
+    </div>
+  </div>
+  <header class='header'>
+      <div class='header__logo'></div>
+      <hr class='header__line'></hr>
+  </header>
+  <main>
+    <section class='profile'>
+      <img class='profile__avatar' src='images/avatar.jpg' alt='Аватарка'>
+      <div class='profile__info'>
+        <div class='profile__text'>
+          <p class='profile__name'>Виктор Макеев</p>
+          <p class='profile__profession'>Cтудент Яндекс.Практикум</p>
+        </div>
+        <input type='button' class='profile__edit-button'>
+      </div>
+      
+      <input type='button' class='profile__add-button'>
+    </section>
+    <section class='elements'>
+      <div class='element'>
+        <img class='element__image' src='images/tom-river.jpg' alt='Ранняя весна на реке Томь'>
+        <div class='element__field'>
+          <p class='element__caption'>Томь</p>
+          <input type='image' class='element__like' src='images/heart.svg'>
+        </div>
+      </div>
+      <div class='element'>
+        <img class='element__image' src='images/red-square.jpg' alt='Воскресенские ворота'>
+        <div class='element__field'>
+          <p class='element__caption'>Воскресенские ворота</p>
+          <input type='image' class='element__like' src='images/heart.svg'>
+        </div>
+      </div>
+      <div class='element'>
+        <img class='element__image' src='images/katun.jpg' alt='Горная река - Катунь'>
+        <div class='element__field'>
+          <p class='element__caption'>Катунь</p>
+          <input type='image' class='element__like' src='images/heart.svg'>
+        </div>
+      </div>
+      <div class='element'>
+        <img class='element__image' src='images/griboedov-canal.jpg' alt='Канал Грибоедова'>
+        <div class='element__field'>
+          <p class='element__caption'>Канал Грибоедова</p>
+          <input type='image' class='element__like' src='images/heart.svg'>
+        </div>
+      </div>
+      <div class='element'>
+        <img class='element__image' src='images/kurai-steppe.jpg' alt='Курайская степь'>
+        <div class='element__field'>
+          <p class='element__caption'>Курайская степь</p>
+          <input type='image' class='element__like' src='images/heart.svg'>
+        </div>
+      </div>
+      <div class='element'>
+        <img class='element__image' src='images/troitsky-bridge.jpg' alt='Вид на Троицкий мост с воды'>
+        <div class='element__field'>
+          <p class='element__caption'>Троицкий мост</p>
+          <input type='image' class='element__like' src='images/heart.svg'>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class='footer'>&copy; 2021 Mesto Russia</footer>
+  <script src='script.js'></script>
+</body>
+</html>
