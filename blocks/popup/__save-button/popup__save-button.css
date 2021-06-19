@@ -11,9 +11,9 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF; 
+  color: #FFFFFF;
   cursor: pointer;
-  transition: opacity linear 0.5s ;
+  transition: opacity linear 0.5s;
 }
 
 .popup__save-button:hover {
