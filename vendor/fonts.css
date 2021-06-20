@@ -12,7 +12,7 @@
        url("inter/Inter-Medium.ttf") format('truetype');
   font-family: "Inter";
   font-weight: 500;
-}
+} 
 
 @font-face {
   src: url("inter/Inter-Black.woff") format('woff'),

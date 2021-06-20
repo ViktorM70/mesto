@@ -1,8 +1,14 @@
 .popup__text {
-    width: 358px;
-    height: 27px;
-    margin: 54px auto 0;
-    border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  width: 358px;
+  height: 27px;
+  margin: 54px auto 0;
+  border: none;
 }
 
 .popup__text:last-of-type {
