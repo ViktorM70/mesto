@@ -1,4 +1,4 @@
-.element__like {
+.card__like {
   background-image: url(../../../images/heart.svg);
   background-size: cover;
   background-color: white;
@@ -9,7 +9,7 @@
   transition: opacity linear 0.5s;
 }
 
-.element__like:hover {
+.card__like:hover {
   cursor: pointer;
   opacity: 0.5;
 }

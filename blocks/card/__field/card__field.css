@@ -1,4 +1,4 @@
-.element__field {
+.card__field {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
