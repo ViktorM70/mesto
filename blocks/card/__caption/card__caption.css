@@ -9,7 +9,6 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 25px 21px 32px;
-  line-height: 0.9;
 }
 
 @media screen and (max-width: 500px) {
