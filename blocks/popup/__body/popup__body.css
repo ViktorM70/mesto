@@ -2,12 +2,12 @@
   position: relative;
   display: flex;
   width: 480px;
-  height: 387px;
+  min-height: 387px;
 }
 
 @media screen and (max-width: 600px) {
   .popup__body {
-    height: 370px;
+    min-height: 370px;
     max-width: 282px;
   }
 }

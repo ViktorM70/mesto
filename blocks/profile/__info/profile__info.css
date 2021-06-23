@@ -1,15 +1,19 @@
 .profile__info {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  grid-template-rows: 3fr 2fr;
+  grid-template-areas: 
+  'name edit-button'
+  'profession profession';
+  grid-gap: 16px 18px;
   max-width: 400px;
-  margin: 0 30px;
-  padding: 0;
+  margin: 22px 0 25px;
 }
 
 @media screen and (max-width: 600px) {
   .profile__info {
-    position: relative;
-    height: 54px;
+    grid-template-columns: 7fr 1fr;
+    grid-gap: 12px 10px;
     margin: 26px auto 0;
     width: 100%;
   }
